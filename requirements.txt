@@ -1,5 +1,5 @@
-# agents-sdk-course-2/email-agent/requirements.txt
-chainlit
+# agents-sdk-course-2/email-agent/requirements.tx
+streamlit
 pandas
 google-api-python-client
 google-auth-httplib2
@@ -7,3 +7,4 @@ google-auth-oauthlib
 openpyxl # Required by pandas to read .xlsx files
 google-generativeai # For Gemini LLM
 pydantic # For data models like Email
+google-auth
