@@ -1,11 +1,7 @@
-# agents-sdk-course-2/email-agent/requirements.tx
 streamlit
 pandas
+openpyxl
 google-api-python-client
-google-auth-httplib2==0.1.0
-google-auth-oauthlib==0.7.1
-openpyxl # Required by pandas to read .xlsx files
-google-generativeai # For Gemini LLM
-pydantic # For data models like Email
-google-auth==2.40.3
-google-auth-oauthlib==0.7.1
+google-auth
+google-auth-httplib2
+google-auth-oauthlib
