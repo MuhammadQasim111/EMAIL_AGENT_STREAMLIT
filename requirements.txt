@@ -1,8 +1,7 @@
 streamlit
 pandas
-openpyxl
 google-api-python-client
-google-auth
-google-auth-httplib2
 google-auth-oauthlib
-requests
+openpyxl # Required by pandas to read .xlsx files
+google-generativeai # For Gemini LLM
+pydantic # For data models like Email
